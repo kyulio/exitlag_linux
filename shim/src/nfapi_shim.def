@@ -1,0 +1,20 @@
+LIBRARY nfapi
+EXPORTS
+  ?nf_init@nfapi@@YA?AW4_NF_STATUS@@PEBDPEAVNF_EventHandler@1@@Z = shim_nf_init
+  ?nf_free@nfapi@@YAXXZ = shim_nf_free
+  ?nf_getExtensionsVersion@nfapi@@YAKXZ = shim_nf_getExtensionsVersion
+  ?nf_setRulesEx@nfapi@@YA?AW4_NF_STATUS@@PEFAU_NF_RULE_EX@1@H@Z = shim_nf_setRulesEx
+  ?nf_setIPEventHandler@nfapi@@YAXPEAVNF_IPEventHandler@1@@Z = shim_nf_setIPEventHandler
+  ?nf_getProcessNameFromKernel@nfapi@@YAHKPEA_WK@Z = shim_nf_getProcessNameFromKernel
+  ?nf_udpPostSend@nfapi@@YA?AW4_NF_STATUS@@_KPEBEPEBDHPEFAU_NF_UDP_OPTIONS@1@@Z = shim_nf_udpPostSend
+  ?nf_udpPostReceive@nfapi@@YA?AW4_NF_STATUS@@_KPEBEPEBDHPEFAU_NF_UDP_OPTIONS@1@@Z = shim_nf_udpPostReceive
+  ?nf_udpDisableFiltering@nfapi@@YA?AW4_NF_STATUS@@_K@Z = shim_nf_udpDisableFiltering
+  ?nf_udpEnableFiltering@nfapi@@YA?AW4_NF_STATUS@@_K@Z = shim_nf_udpEnableFiltering
+  ?nf_udpAddRemoteAddrRule@nfapi@@YA?AW4_NF_STATUS@@_KPEFAU_NF_UDP_REMOTE_ADDR_RULE@1@@Z = shim_nf_udpAddRemoteAddrRule
+  ?nf_addFlowCtl@nfapi@@YA?AW4_NF_STATUS@@PEFAU_NF_FLOWCTL_DATA@1@PEAI@Z = shim_nf_addFlowCtl
+  ?nf_deleteFlowCtl@nfapi@@YA?AW4_NF_STATUS@@I@Z = shim_nf_deleteFlowCtl
+  ?nf_setFlowCtlQueueParams@nfapi@@YA?AW4_NF_STATUS@@IPEFAU_NF_FCQUEUE_PARAMS@1@@Z = shim_nf_setFlowCtlQueueParams
+  ?nf_setTCPFlowCtl@nfapi@@YA?AW4_NF_STATUS@@_KI@Z = shim_nf_setTCPFlowCtl
+  ?nf_setUDPFlowCtl@nfapi@@YA?AW4_NF_STATUS@@_KI@Z = shim_nf_setUDPFlowCtl
+  ?nf_modifyFlowCtl@nfapi@@YA?AW4_NF_STATUS@@IPEFAU_NF_FLOWCTL_DATA@1@@Z = shim_nf_modifyFlowCtl
+  ?nf_getFlowCtlStat@nfapi@@YA?AW4_NF_STATUS@@IPEFAU_NF_FLOWCTL_STAT@1@@Z = shim_nf_getFlowCtlStat

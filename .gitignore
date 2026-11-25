@@ -1,0 +1,29 @@
+# Secrets, tokens, credentials, runtime state & logs (NEVER commit)
+shim/state/
+*.log
+
+# Large extracted binaries, installer, Wine prefix, toolchain & build outputs
+_tools/
+extracted*/
+shim/build/
+
+# Compiled / binary / local database / image artifacts
+**/__pycache__/
+*.pyc
+*.exe
+*.dll
+*.dll.orig
+*.dll.tmp
+*.sys
+*.obj
+*.lib
+*.exp
+*.o
+*.bin
+*.db
+*.db.bak
+*.png
+*.jpg
+*.jpeg
+*~
+.DS_Store
